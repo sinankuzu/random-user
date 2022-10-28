@@ -1,0 +1,12 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border:1px solid red;
+    width:500px;
+    align-items: center;
+    justify-items: center;
+}
+
+img{
+    border-radius: 50%;
+}
