@@ -1,12 +1,41 @@
+.container{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top left,#58EFEC,#7CCAD5,#E85C90,#A0A6BE,#C481A7);
+}
+
+.row{
+    text-align: center;
+    
+}
+
 .card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    border:1px solid red;
+    
     width:500px;
+    height: 400px;
     align-items: center;
-    justify-items: center;
+    margin: auto;
+    background: linear-gradient(to bottom right,#58EFEC,#7CCAD5,#A0A6BE,#C481A7,#E85C90);
+    padding: 30px 60px 40px 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #a28089, -1px -1px 10px #a28089;
 }
 
 img{
     border-radius: 50%;
+}
+
+.buton{
+    margin-top:20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    background:linear-gradient(to right,#58EFEC,#7CCAD5,#A0A6BE,#C481A7,#E85C90) ;
+
 }
