@@ -112,10 +112,12 @@ const Data = () => {
               <div>
                 {element.location.city}-{element.location.country}
               </div>
-              <div>{element.dob.age}</div>
-              <div>
-                {element.dob.date.slice(8, 10)}-{element.dob.date.slice(5, 7)}-
-                {element.dob.date.slice(0, 4)}
+              <div className="age">
+                <div>Age:{element.dob.age}</div>
+                <div>Register Date: 
+                  {element.dob.date.slice(8, 10)}-{element.dob.date.slice(5, 7)}
+                  -{element.dob.date.slice(0, 4)}
+                </div>
               </div>
             </div>
           );
